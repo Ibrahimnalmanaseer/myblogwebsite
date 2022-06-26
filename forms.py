@@ -26,8 +26,8 @@ class Login(FlaskForm):
     password = StringField("Password", validators=[DataRequired()])
     submit = SubmitField(" Login ")
 
-#
-# class MakeComment(FlaskForm):
-#
-#     text=StringField("Comment",validators=[DataRequired()])
-#     submit=SubmitField("Submit Comment")
+
+class MakeComment(FlaskForm):
+
+    text=StringField("Comment",validators=[DataRequired()])
+    submit=SubmitField("Submit Comment")
